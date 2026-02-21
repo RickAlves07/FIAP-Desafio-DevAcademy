@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./src/assets/favicon.png"
+    />
+    <link rel="stylesheet" href="./src/css/styles.css" />
+    <title>DevAcademy</title>
+  </head>
+  <body>
+    <header class="header-nav">
+      <div class="nav-content">
+        <div class="logo">
+          <h2>Dev<span>Academy</span></h2>
+        </div>
+
+        <button
+          class="hamburger"
+          id="btnMenu"
+          aria-expanded="false"
+          aria-label="Abrir menu de navegação"
+        >
+          <span class="line"></span>
+          <span class="line"></span>
+          <span class="line"></span>
+        </button>
+
+        <nav
+          class="nav-links"
+          id="menuLinks"
+          aria-label="Menu de navegação"
+        ></nav>
+      </div>
+    </header>
+
+    <main class="main-container">
+      <section class="filter-section">
+        <h2>Cursos</h2>
+        <div class="filter-group">
+          <input
+            type="search"
+            id="filterInput"
+            placeholder="Buscar tecnologia (ex: TypeScript)"
+            aria-label="Filtrar cursos"
+          />
+        </div>
+        <div id="filterMsg" class="filter-msg"></div>
+      </section>
+
+      <section id="cursosContainer">
+        <div
+          id="cursosMsg"
+          class="cursos-msg"
+          role="status"
+          aria-live="polite"
+        ></div>
+        <div
+          id="cursosGrid"
+          class="cursos-grid"
+          role="region"
+          aria-label="Lista de cursos"
+        ></div>
+      </section>
+    </main>
+
+    <footer>
+      <section class="footer-itens">
+        <div class="item">
+          <div class="logo">
+            <h3>Dev<span>Academy</span></h3>
+          </div>
+          <p>
+            Acelerando carreiras tech com foco no que o mercado realmente pede.
+          </p>
+        </div>
+        <div class="item">
+          <div
+            class="footer-links"
+            id="footerLinks"
+            aria-label="Links do rodapé"
+          ></div>
+        </div>
+        <div class="item">
+          <h3>Newsletter</h3>
+          <div class="newsletter-input">
+            <input
+              type="email"
+              id="newsletterInput"
+              placeholder="Informe seu E-mail"
+              aria-label="Se inscrever na Newsletter com seu E-mail"
+            />
+            <button class="btn-newsletter-submit" type="submit">Ok</button>
+          </div>
+        </div>
+      </section>
+    </footer>
+
+    <script type="module" src="./src/js/script.js"></script>
+  </body>
+</html>

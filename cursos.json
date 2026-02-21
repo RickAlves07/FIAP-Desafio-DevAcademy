@@ -1,0 +1,10 @@
+[
+  { "id": 1, "nome": "TypeScript Fundamentals", "nivel": "Iniciante", "categoria": "Linguagens", "descricao": "Domine a tipagem estática." },
+  { "id": 2, "nome": "Arquitetura Clean", "nivel": "Avançado", "categoria": "Arquitetura", "descricao": "Sistemas escaláveis e robustos." },
+  { "id": 3, "nome": "CSS Moderno", "nivel": "Intermediário", "categoria": "Frontend", "descricao": "Layouts com Grid e Flexbox." },
+  { "id": 4, "nome": "Node.js Enterprise", "nivel": "Avançado", "categoria": "Backend", "descricao": "APIs escaláveis com padrões de mercado." },
+  { "id": 5, "nome": "React Avançado", "nivel": "Avançado", "categoria": "Frontend", "descricao": "Hooks, Context e Performance." },
+  { "id": 6, "nome": "Docker para Devs", "nivel": "Intermediário", "categoria": "DevOps", "descricao": "Containerização e orquestração." },
+  { "id": 7, "nome": "Python para Data Science", "nivel": "Iniciante", "categoria": "Data Science", "descricao": "Análise de dados com Python." },
+  { "id": 8, "nome": "Segurança em Aplicações Web", "nivel": "Avançado", "categoria": "Segurança", "descricao": "Proteja suas aplicações contra ameaças comuns." }
+]
