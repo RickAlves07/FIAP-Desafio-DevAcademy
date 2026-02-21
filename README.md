@@ -52,4 +52,5 @@ Utilizar como base as imagens disponibilizadas na pasta `prototipos`
 ---
 
 **Autor**: Rick Alves  
+**GitHub Page**: https://rickalves07.github.io/FIAP-Desafio-DevAcademy/
 **Repositorio GitHub**: [FIAP-Desafio-DevAcademy](https://github.com/RickAlves07/FIAP-Desafio-DevAcademy.git)
